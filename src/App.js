@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Blogs from "./components/Blogs/Blogs";
 import {
   BrowserRouter as Router,
   Route,
@@ -36,7 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/blog" element={<Blogs />} />
         </Routes>
       </div>
     </Router>
