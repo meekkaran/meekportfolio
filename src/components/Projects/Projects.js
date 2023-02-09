@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import phonestore from "../../Assets/Projects/phonestore.PNG";
 import djangoEcommerce from "../../Assets/Projects/djangoEcommerce.PNG";
 import iams from "../../Assets/Projects/iams.PNG";
+import music from "../../Assets/Projects/music.png";
 
 function Projects() {
   return (
@@ -48,6 +49,17 @@ function Projects() {
               description="This is a web-based management system which is developed to solve the problem of dealing with a lot of paperwork, making errors during filling in the logbook, losing the logbook or submitting error prone reports on the logbook. It will enable students to do their attachments from wherever they want without considering distance and the supervisors will supervise students’ logbook from wherever they will be.              "
               ghLink="https://github.com/meekkaran/attachment-system"
               demoLink=""              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={music}
+              isBlog={false}
+              title="Music Playing System"
+              description="A collaborative music playing system that lets people have control over the music being played. The users of the system are: HOST who is in charge of creating and controlling music and the users who access the music system, vote for a specific song, play ad pause a song depending on the host's persmission"
+              ghLink="https://github.com/meekkaran/react-django-music-app"
+              demoLink="https://musicparty.meekkaran.com/"              
             />
           </Col>
 
