@@ -6,6 +6,7 @@ import phonestore from "../../Assets/Projects/phonestore.PNG";
 import djangoEcommerce from "../../Assets/Projects/djangoEcommerce.PNG";
 import iams from "../../Assets/Projects/iams.PNG";
 import music from "../../Assets/Projects/music.png";
+import library from "../../Assets/Projects/library.PNG";
 
 function Projects() {
   return (
@@ -60,6 +61,17 @@ function Projects() {
               description="A collaborative music playing system that lets people have control over the music being played. The users of the system are: HOST who is in charge of creating and controlling music and the users who access the music system, vote for a specific song, play ad pause a song depending on the host's persmission"
               ghLink="https://github.com/meekkaran/react-django-music-app"
               demoLink="https://musicparty.meekkaran.com/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={library}
+              isBlog={false}
+              title="Library Catalog"
+              description="A simple Library Catalog website built to provide an online catalog for a small local library, where users can manage their accounts and browse books available on the website."
+              ghLink="https://github.com/meekkaran/Django_Library_Catalogue"
+              demoLink="https://library.meekkaran.com/"              
             />
           </Col>
 
